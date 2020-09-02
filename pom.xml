@@ -31,8 +31,8 @@
 </properties>
 <modules>
     <!-- 公用组件 -->
-<!--    <module>take-mall-common</module>-->
-<!--    <module>take-mall-member</module>-->
+    <module>take-mall-common</module>
+    <module>take-mall-member</module>
 </modules>
 
 
