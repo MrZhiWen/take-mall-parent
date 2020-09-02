@@ -2,12 +2,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 121.36.39.3:8848
+        server-addr: 127.0.0.1:8848
         group: DEFAULT_GROUP
         namespace: cd11f241-3d8b-42a5-a8e5-768b9ce36a32
       config:
         timeout: 100000
-        server-addr: 121.36.39.3:8848
+        server-addr: 127.0.0.1:8848
         file-extension: yaml
         encode: UTF-8
         extension-configs:
