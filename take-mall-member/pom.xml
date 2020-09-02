@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.mall.member</groupId>
 	<artifactId>take-mall-member</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>take-mall-member</name>
 	<description>Demo project for Spring Boot</description>
@@ -73,7 +73,7 @@
 
 	<build>
 		<!-- 打包后文件名称：项目名-环境-版本 -->
-		<finalName>${project.artifactId}-${environment}-${project.version}</finalName>
+		<finalName>${project.artifactId}-${project.version}</finalName>
 
 		<plugins>
 			<plugin>
