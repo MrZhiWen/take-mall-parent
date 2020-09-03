@@ -2,13 +2,14 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 172.16.10.62:8848
+        server-addr: 121.36.39.3:8848
         group: DEFAULT_GROUP
         namespace: 285a2f29-6555-4ca2-b963-dd8f922392d2
       config:
         timeout: 100000
-        server-addr: 172.16.10.62:8848
+        server-addr: 121.36.39.3:8848
         file-extension: yaml
+        namespace: 285a2f29-6555-4ca2-b963-dd8f922392d2
         encode: UTF-8
         extension-configs:
           - data-id: config-mysql.yaml
@@ -17,8 +18,8 @@ spring:
             group: DEFAULT_GROUP
           - data-id: config-mongo.yaml
             group: DEFAULT_GROUP
-#          - data-id: config-warehouse-rocketmq.yaml
-#            group: DEFAULT_GROUP
+          - data-id: config-mall.yaml
+            group: DEFAULT_GROUP
 #          - data-id: config-warehouse-job.yaml
 #            group: DEFAULT_GROUP
 #          - data-id: config-warehouse.yaml

@@ -9,6 +9,7 @@ spring:
         timeout: 100000
         server-addr: 127.0.0.1:8848
         file-extension: yaml
+        namespace: cd11f241-3d8b-42a5-a8e5-768b9ce36a32
         encode: UTF-8
         extension-configs:
           - data-id: config-mysql.yaml
@@ -17,8 +18,8 @@ spring:
             group: DEFAULT_GROUP
           - data-id: config-mongo.yaml
             group: DEFAULT_GROUP
-#          - data-id: config-warehouse-rocketmq.yaml
-#            group: DEFAULT_GROUP
+          - data-id: config-mall.yaml
+            group: DEFAULT_GROUP
 #          - data-id: config-warehouse-job.yaml
 #            group: DEFAULT_GROUP
 #          - data-id: config-warehouse.yaml
@@ -27,4 +28,3 @@ spring:
 log:
   level: debug
   path: /Users/limr/logs/member/
-
