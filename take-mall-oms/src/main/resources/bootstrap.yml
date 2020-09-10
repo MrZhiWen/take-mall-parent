@@ -1,0 +1,9 @@
+server:
+  port: 8210
+spring:
+  application:
+    name: take-mall-oms
+  profiles:
+    active: '@environment@'
+  main:
+    allow-bean-definition-overriding: true

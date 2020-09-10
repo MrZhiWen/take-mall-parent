@@ -7,11 +7,11 @@
 		<artifactId>take-mall-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.mall.member</groupId>
-	<artifactId>take-mall-member</artifactId>
+	<groupId>com.mall.oms</groupId>
+	<artifactId>take-mall-oms</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>take-mall-member</name>
+	<name>take-mall-oms</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -35,7 +35,6 @@
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-dubbo</artifactId>
 		</dependency>
-
 		<!-- alibaba -->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
@@ -61,7 +60,6 @@
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -73,7 +71,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
 	</dependencies>
 
 	<build>

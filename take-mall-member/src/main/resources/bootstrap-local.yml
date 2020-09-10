@@ -29,3 +29,24 @@ log:
   level: debug
   path: /Users/limr/logs/member/
 
+
+dubbo:
+  application:
+    name: take-mall-member
+  registry:
+    address: nacos://121.36.39.3:8848
+
+# 服务监控检查
+endpoints:
+  dubbo:
+    enabled: true
+management:
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: threadpool
+  endpoints:
+    web:
+      exposure:
+        include: "*"
